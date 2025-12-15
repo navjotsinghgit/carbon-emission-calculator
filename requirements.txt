@@ -1,6 +1,6 @@
 # FastAPI and Core Dependencies
 fastapi==0.104.1
-uvicorn[standard]==0.24.0
+uvicorn==0.24.0
 python-multipart==0.0.6
 
 # Database
@@ -8,8 +8,8 @@ sqlalchemy==2.0.23
 alembic==1.12.1
 
 # Authentication and Security
-passlib[bcrypt]==1.7.4
-python-jose[cryptography]==3.3.0
+passlib==1.7.4
+python-jose==3.3.0
 cryptography==41.0.8
 itsdangerous==2.1.2
 
@@ -49,4 +49,5 @@ loguru==0.7.2
 python-dateutil==2.8.2
 
 # File handling
+
 aiofiles==23.2.1
